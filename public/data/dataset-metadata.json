@@ -1,0 +1,69 @@
+{
+  "project": "geowisata",
+  "generatedAt": "2026-07-17",
+  "recordCount": 30,
+  "dataSources": [
+    {
+      "name": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "Open Database License (ODbL) 1.0"
+    },
+    {
+      "name": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+      "license": "CC0 1.0"
+    }
+  ],
+  "referenceUsage": [
+    {
+      "label": "Koordinat dan konteks peta",
+      "purpose": "Dipakai untuk latitude, longitude, tautan peta per destinasi, serta verifikasi posisi titik atau centroid area.",
+      "websites": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/",
+          "license": "Open Database License (ODbL) 1.0"
+        }
+      ]
+    },
+    {
+      "label": "Identitas destinasi dan rujukan ensiklopedis",
+      "purpose": "Dipakai sebagai referensi nama destinasi, konteks umum, dan tautan bacaan; bukan sebagai sumber koordinat utama.",
+      "websites": [
+        {
+          "name": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Copyright",
+          "license": "CC0 1.0"
+        },
+        {
+          "name": "Wikipedia Indonesia",
+          "url": "https://id.wikipedia.org/",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "label": "Website resmi destinasi",
+      "purpose": "Dipakai sebagai tautan tambahan pada record yang memiliki situs resmi atau pengelola, bukan sebagai sumber runtime dinamis.",
+      "websites": [
+        { "name": "Borobudur Park", "url": "https://borobudurpark.com/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Gunung Api Purba Nglanggeran", "url": "https://gunungapipurba.com/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Komodo National Park", "url": "https://komodonationalpark.org/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Desa Penglipuran", "url": "https://penglipuran.net/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Prambanan", "url": "https://prambanan.injourneydestination.id/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Tanah Lot", "url": "https://tanahlot.id/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Taman Nasional Ujung Kulon", "url": "https://tnujungkulon.menlhk.go.id/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Museum Ullen Sentalu", "url": "https://ullensentalu.com/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Way Kambas", "url": "https://waykambas.org/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Museum Nasional Indonesia", "url": "https://www.museumnasional.or.id/", "license": "Hak cipta masing-masing pemilik situs" },
+        { "name": "Rinjani National Park", "url": "https://www.rinjaninationalpark.id/", "license": "Hak cipta masing-masing pemilik situs" }
+      ]
+    }
+  ],
+  "notes": [
+    "Dataset dikurasi sebagai data statis untuk demonstrasi frontend dan tidak diperbarui secara real-time.",
+    "Koordinat menunjuk fitur utama atau titik representatif dari area wisata; beberapa destinasi luas menggunakan centroid area.",
+    "Jam buka, harga tiket, cuaca, dan kondisi akses tidak disediakan karena dapat berubah.",
+    "Tautan OpenStreetMap pada setiap record dapat digunakan untuk memeriksa konteks koordinat dan atribusi."
+  ]
+}

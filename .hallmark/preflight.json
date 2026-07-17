@@ -1,0 +1,10 @@
+{
+  "date": "2026-07-17",
+  "framework": "Next.js 16.2.10 App Router",
+  "fontStack": "none",
+  "palette": "none",
+  "motion": "motion-cut",
+  "spacing": "none",
+  "preserve": ["PRD_geowisata.md"],
+  "introduce": ["Almanac tokens", "Workbench macrostructure", "responsive map shell"]
+}

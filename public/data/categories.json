@@ -1,0 +1,12 @@
+[
+  { "id": "beach", "label": "Pantai", "icon": "Waves", "shortLabel": "PT", "colorToken": "--category-beach" },
+  { "id": "mountain", "label": "Gunung", "icon": "Mountain", "shortLabel": "GN", "colorToken": "--category-mountain" },
+  { "id": "lake", "label": "Danau", "icon": "CircleDot", "shortLabel": "DN", "colorToken": "--category-lake" },
+  { "id": "waterfall", "label": "Air terjun", "icon": "Droplets", "shortLabel": "AT", "colorToken": "--category-waterfall" },
+  { "id": "national-park", "label": "Taman nasional", "icon": "Trees", "shortLabel": "TN", "colorToken": "--category-national-park" },
+  { "id": "museum", "label": "Museum", "icon": "Landmark", "shortLabel": "MS", "colorToken": "--category-museum" },
+  { "id": "heritage", "label": "Situs sejarah", "icon": "Columns3", "shortLabel": "SS", "colorToken": "--category-heritage" },
+  { "id": "island", "label": "Pulau", "icon": "Palmtree", "shortLabel": "PL", "colorToken": "--category-island" },
+  { "id": "village", "label": "Desa wisata", "icon": "House", "shortLabel": "DW", "colorToken": "--category-village" },
+  { "id": "nature", "label": "Alam lainnya", "icon": "Leaf", "shortLabel": "AL", "colorToken": "--category-nature" }
+]

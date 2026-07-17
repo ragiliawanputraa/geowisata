@@ -1,0 +1,77 @@
+/* Hallmark · tokens: Almanac · paper-band: light · display: roman-serif · accent: warm */
+:root {
+  --color-paper: oklch(97% 0.012 92);
+  --color-paper-2: oklch(94% 0.016 92);
+  --color-paper-3: oklch(90% 0.018 92);
+  --color-ink: oklch(20% 0.022 142);
+  --color-ink-2: oklch(30% 0.024 142);
+  --color-neutral: oklch(45% 0.018 120);
+  --color-muted: oklch(38% 0.014 112);
+  --color-rule: oklch(78% 0.02 96);
+  --color-rule-strong: oklch(55% 0.028 104);
+  --color-accent: oklch(49% 0.17 40);
+  --color-accent-hover: oklch(42% 0.16 40);
+  --color-accent-ink: oklch(98% 0.01 92);
+  --color-focus: oklch(57% 0.18 250);
+  --color-success: oklch(43% 0.12 148);
+  --color-error: oklch(48% 0.18 28);
+  --color-map-water: oklch(91% 0.035 225);
+  --color-map-land: oklch(91% 0.024 112);
+  --color-scrim: oklch(18% 0.02 142 / 0.45);
+  --color-shadow: oklch(20% 0.02 142 / 0.12);
+
+  --category-beach: oklch(42% 0.14 230);
+  --category-mountain: oklch(39% 0.11 145);
+  --category-lake: oklch(40% 0.12 250);
+  --category-waterfall: oklch(42% 0.13 205);
+  --category-national-park: oklch(36% 0.11 135);
+  --category-museum: oklch(41% 0.1 315);
+  --category-heritage: oklch(42% 0.13 58);
+  --category-island: oklch(40% 0.12 190);
+  --category-village: oklch(40% 0.1 85);
+  --category-nature: oklch(39% 0.08 165);
+
+  --font-display: var(--font-newsreader);
+  --font-body: var(--font-plex);
+  --font-outlier: var(--font-plex-mono);
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --text-xs: 0.72rem;
+  --text-sm: 0.84rem;
+  --text-base: 1rem;
+  --text-md: 1.2rem;
+  --text-lg: 1.44rem;
+  --text-xl: 1.728rem;
+  --text-2xl: 2.074rem;
+  --text-display: clamp(2.25rem, 4vw, 4rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --rule-thin: 1px;
+  --rule-heavy: 2px;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
